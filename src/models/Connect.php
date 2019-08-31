@@ -8,7 +8,6 @@ class Connect
     private $chartset = "utf-8";
     private $conector;
 
-
     function connectBD()
     {
         $this->conector=new mysqli($this->server,$this->user,$this->password,$this->database);

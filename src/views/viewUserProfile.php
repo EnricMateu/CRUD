@@ -28,7 +28,7 @@
     <main>
         <div class="mid-left">
             <div class="student-profile">
-                <p id="pa1">ID: <?php echo $_SESSION['identi']; ?></p>
+                <p id="pa1">ID: <?php echo $_SESSION['id']; ?></p>
                 <p id="pa2">Bienvenid@: <?php echo $_SESSION['user']; ?></p>
                 <p id="pa3">Tipo horario: <?php echo $_SESSION['horario']; ?></p>
                 <p>Fecha: <?php echo date("Y-m-d")?></p>
